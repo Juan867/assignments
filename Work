@@ -1,0 +1,7 @@
+python3 insert.py nbtt.sqlite
+john,aaron,nathan
+litecli
+python3 insert.py roster2019-20.txt nbtt.sqlite
+litecli
+python3 insert.py roster2019-20.txt nbtt.sqlite
+python3 insert.py nbtt.sqlite
