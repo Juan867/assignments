@@ -1,0 +1,1 @@
+create view example as SELECT AVG(total) FROM Invoice,Customer WHERE customerid like '%email%';
