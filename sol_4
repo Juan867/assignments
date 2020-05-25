@@ -1,0 +1,1 @@
+create view example as SELECT COUNT(customerid) FROM Customer WHERE Company is Null;
