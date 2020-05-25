@@ -1,0 +1,1 @@
+create view example as SELECT MAX (total) From Invoice,Genre WHERE name like '%TV Show%';
