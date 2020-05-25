@@ -1,0 +1,1 @@
+create view example as SELECT lastname,country FROM Employee,Customer Group by lastname having 'Peacock';
