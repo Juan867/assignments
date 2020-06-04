@@ -1,0 +1,3 @@
+import sqlite3
+
+top_ten = SELECT COUNT(hours),YEAR(2020) FROM service,events,roster GROUP BY 'name'  LIMIT 10;
