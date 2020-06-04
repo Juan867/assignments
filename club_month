@@ -1,0 +1,3 @@
+import sqlite3
+
+club_month = SELECT COUNT(hours),MONTH(6) FROM service,events;
