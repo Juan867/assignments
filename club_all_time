@@ -1,3 +1,3 @@
 import sqlite3
 
-club_ytd = SELECT COUNT(hours) FROM service,events WHERE (From_date BETWEEN '2020-01-01' AND '2020-03-04');  
+club_all_time = SELECT COUNT(hours) FROM service,events WHERE (From_date BETWEEN '2020-01-01' AND '2020-03-04');  
